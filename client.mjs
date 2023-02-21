@@ -31,7 +31,9 @@ async function runClient(location, date) {
     'Total Precipitation Inches': totalprecip_in
   }
 
-  console.log(weather);
+  return weather;
 }
 
-runClient('London', '2023-11-11');
+(async () => {
+  console.log(await runClient('London', '2023-11-11'))
+})()
