@@ -1,5 +1,5 @@
 # CS361-Portfolio Weather Microservice
-Microservice Implementation for my partner's trip planner. The microservice uses weatherapi.com for weather information.
+Microservice implementation for my partner's trip planner. The microservice uses weatherapi.com for weather information.
 
 Description: The microservice has a client-server architecture written in JavaScript and runs on NodeJS. The important modules of this microservice include axios for HTTP requests and zeromq for the socket architecture behind the client and the server. The microservice itself requires a location (city) and date (yyyy-MM-DD), and when ran generates weather data for the given parameters.
 
